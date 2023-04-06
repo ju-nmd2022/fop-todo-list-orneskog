@@ -1,0 +1,57 @@
+* {
+  font-family: Futura, sans-serif;
+  background-color: #ddd;
+}
+html,
+body {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 36pt;
+  margin: 2em;
+}
+
+.container {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+}
+
+.textInput {
+  margin-right: 1em;
+  border: 2px solid #999999;
+  border-radius: 4px;
+  font-size: 24pt;
+  background-color: #ddd;
+  color: #999999;
+}
+
+.textInput:focus {
+  border: 3px solid #555;
+  background-color: #ccc;
+  color: #aaa;
+}
+
+.sendButton {
+  border: 2px solid #999999;
+  border-radius: 4px;
+  font-size: 24pt;
+  background-color: #ddd;
+  color: #999999;
+}
+
+.sendButton:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.task {
+  max-width: 400px;
+}
