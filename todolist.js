@@ -55,7 +55,6 @@ function taskLoop() {
     // Before using it, I could add the changed style to the task, but when updating it, the changes were gone.
     // Now after taking help, the task objects in the "tasks" array will have three properties, both a text string for the task collected from the text field, a boolean for if the task was completed or not and the background color saved.
     // Accessed 11 april, 2023
-
     completeButton.addEventListener("click", () => {
       // Changing the color on the background
       taskElement.style.backgroundColor = "#8D3";
