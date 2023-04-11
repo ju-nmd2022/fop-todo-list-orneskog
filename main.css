@@ -71,6 +71,7 @@ header {
 .buttonSpace {
   margin-left: 1em;
   background: none;
+  cursor: pointer;
 }
 div {
   margin-top: 2em;
