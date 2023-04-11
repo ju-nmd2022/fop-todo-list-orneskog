@@ -78,3 +78,19 @@ header {
 div {
   margin-top: 2em;
 }
+
+@media (max-width: 400px) {
+  .task {
+    max-width: 320px;
+  }
+  .textInput {
+    max-width: 250px;
+    max-height: 40px;
+    font-size: 12pt;
+  }
+  .sendButton {
+    max-width: 65px;
+    max-height: 40px;
+    font-size: 8pt;
+  }
+}
