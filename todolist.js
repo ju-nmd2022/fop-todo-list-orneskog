@@ -6,10 +6,13 @@ const buttonElement = document.getElementById("sendButton");
 // getting value from inputValue textfield and then pushing it to tasks array
 function addTaskToTaskList() {
   let inputValue = document.getElementById("textInput").value;
-  let task = { text: inputValue };
-  tasks.push(task);
-  taskLoop();
-  saveTaskToLocalStorage();
+  // Only adding to tasks array if we have a value in inputValue
+  if (inputValue !== "") {
+    let task = { text: inputValue };
+    tasks.push(task);
+    taskLoop();
+    saveTaskToLocalStorage();
+  }
 }
 
 // Saving tasks to local storage
