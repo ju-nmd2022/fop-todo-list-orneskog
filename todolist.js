@@ -15,6 +15,7 @@ function addTaskToTaskList() {
   }
 }
 
+// Got a little help from a class mate to get a hint on how to implement the saving to local storage. I didn't get it to work at first
 // Saving tasks to local storage
 function saveTaskToLocalStorage() {
   taskJSON = JSON.stringify(tasks);
